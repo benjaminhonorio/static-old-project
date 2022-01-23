@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin H">
+    <meta name="description" content="Alquila o compra herramientas de calidad para tu trabajo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fuentes Google: Teko, Roboto, Roboto Slab, Caveat-->
+    <!--Icono de la pestaña-->
+    <link rel="icon" href="./img/favicon-32x32.png">
+    <!--Normalize css-->
+    <link rel="stylesheet" href="./style/normalize.css">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Titulo de la web -->
+    <title>AlquilaHerramientas - Las mejores herramientas, cuando más las necesitas</title>
+</head>
+
+<body>
+    <header>
+        <div class="barra-anuncios"></div>
+        <nav>
+            <div class="logo-container">
+                <a href="./"><img class="logo" src="./img/LOGO.svg" alt="logo"></a>
+            </div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul class="main-nav">
+                <li><a href="./">Inicio</a></li>
+                <li>
+                    <label for="btn-1" class="show">Categorías +</label>
+                    <a href="#categories">Categorías</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="perforacion.html">Perforación</a></li>
+                        <li><a href="demolicion.html">Demolición</a></li>
+                        <li><a href="construccion.html">Construcción</a></li>
+                        <li><a href="corte.html">Corte</a></li>
+                    </ul>
+                </li>
+                <li><a href="#catalogue">Catálogo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner-container">
+        <div class="banner-bg"></div>
+        <div id="banner-content" class="banner-content">
+            <figure class="banner-product">
+                <img src="./img/productos/taladromkportada.png" alt="taladro">
+            </figure>
+            <div id="promotion-container" class="promotion-container">
+                <div id="headline" class="headline">¡Nuevas Herramientas!</div>
+                <div class="product-promotion">
+                    <h2 class="product-name">Taladros Makita</h2>
+                    <p class="product-description">Poderoso taladro portable
+                    <p>
+                </div>
+                <a role="button" id="button-rent" class="button banner-button" href="product_sample.html">Alquilar</a>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="categories">
+            <div class="categories-bg">
+                <h2>Categorías</h2>
+                <p>Busca la herramienta que necesitas para...</p>
+                <div class="categories-content">
+                    <div>
+                        <img src="./img/productos/taladromk1.png" alt="taladro para perforación">
+                        <h3>Perforación</h3>
+                        <a href="perforacion.html" role="button" class="button">Ver Catálogo</a>
+                    </div>
+                    <div>
+                        <img src="./img/productos/martillomk2.jpg" alt="martillo para demolición">
+                        <h3>Demolición</h3>
+                        <a href="demolicion.html" role="button" class="button">Ver Catálogo</a>
+                    </div>
+                    <div>
+                        <img src="./img/productos/andamio2.jpeg" alt="Andamio para construcción">
+                        <h3>Construcción</h3>
+                        <a href="construccion.html" role="button" class="button">Ver Catálogo</a>
+                    </div>
+                    <div>
+                        <img src="./img/productos/cortadora.jpg" alt="Cortadora de cerámica">
+                        <h3>Corte</h3>
+                        <a href="corte.html" role="button" class="button">Ver Catálogo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-message">
+                <div class="message-content">
+                    <h1>Las Mejores Herramientas</h1>
+                    <h2>cuando más las necesitas</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogue" class="all-catalogue">
+            <div class="catalogue-bg">
+                <h2>Catálogo</h2>
+                <div class="catalogue-grid">
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/cortadoramk1.png" alt="Tronzadora"></figure>
+                        <h3>Tronzadora Makita</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/amoladoramk1.jpg" alt="Amoladora Makita"></figure>
+                        <h3>Amoladora</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/martillomk2.jpg" alt="Martillo Makita"></figure>
+                        <h3>Martillo demoledor</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/taladromk1.png" alt="Taladro Makita"></figure>
+                        <h3>Taladro</h3>
+                        <a href="product_sample.html" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/martillomk.jpg" alt="Martillo Makita 2"></figure>
+                        <h3>Martillo demoledor</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/cortadora.jpg" alt="Cortadora de cerámica Rubi"></figure>
+                        <h3>Cortadora de cerámica</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                    <div class="grid-item">
+                        <figure><img src="./img/productos/andamio2.jpeg" alt="Andamio de construcción"></figure>
+                        <h3>Andamio de construcción</h3>
+                        <a href="#" role="button" class="button">Alquilar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="marcas">
+            <div class="marcas-bg">
+                <h2>Marcas</h2>
+                <div class="marcas">
+                    <figure>
+                        <img src="./img/makita.jpg" alt="Logo Makita">
+                    </figure>
+                    <figure>
+                        <img src="./img/einhell.png" alt="Logo Einhell">
+                    </figure>
+                    <figure>
+                        <img src="./img/rubi.jpg" alt="Logo Rubi">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="contacto-bg">
+                <h2>Contáctanos</h2>
+                <div class="contacto">
+                    <address class="datos-contacto">
+                        <span>Contacto</span><br>
+                        Cel.: <a href="tel:123456789"> 123 456 789</a> <br>
+                        Email: <wbr><a
+                            href="mailto:contacto@alquilaherramientas.com">contacto@alquilaherramientas.com</a><br>
+                        <span>Ubicación</span><br>
+                        Ferretería 4 Hermanos <br>
+                        Las Brisas, Nuevo Chimbote, <br>
+                        Áncash-Perú<br>
+                        <span>Horario de Atención</span><br>
+                        LUN-SÁB: <br> <time datetime="08:00">08:00 am</time> – <time datetime="15:00">3:00 pm</time>
+                        <br>
+                        <span>Síguenos</span><br>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"
+                                aria-hidden="true"></i></a>
+                    </address>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1969.6705846042998!2d-78.542023!3d-9.123625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6bb001336fe015e!2sFerreter%C3%ADa%204%20Hermanos!5e0!3m2!1ses!2sus!4v1592500321366!5m2!1ses!2sus"
+                            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info-container">
+            <div>
+                <a href="index.html"><img src="./img/alquilaherramientaslogo.svg" alt="Logo"></a>
+                <p>Un servicio de:</p>
+                <a href="https://www.facebook.com/"><img src="./img/ferreterialogo.svg"
+                        alt="Logo Ferretería 4 Hermanos"></a>
+            </div>
+            <div>
+                <h3><a href="#categories">Categorías</a></h3>
+                <a href="perforacion.html">Perforación</a>
+                <a href="demolicion.html">Demolición</a>
+                <a href="construccion.html">Construcción</a>
+                <a href="corte.html">Corte</a>
+            </div>
+
+            <div>
+                <h3><a href="#contacto">Ubicación</a></h3>
+                <address>Las Brisas, Nuevo Chimbote. Áncash, Perú.</address>
+            </div>
+            <div>
+                <h3><a href="#">Nosotros</a></h3>
+                <a href="#">Misión</a>
+                <a href="#">Visión</a>
+            </div>
+        </div>
+        <div class="copy">Copyright © 2020 AlquilaHerramientas | Ferretería 4 Hermanos</div>
+    </footer>
+    <!--    <script src="js/scripts.js"></script>-->
+    <script src="https://kit.fontawesome.com/607234b9dc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <script>
+        $('.icon').click(function () {
+            $('span').toggleClass("cancel");
+        });
+
+    </script>
+</body>
+
+</html>

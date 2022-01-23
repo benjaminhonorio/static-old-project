@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin H">
+    <meta name="description" content="Alquila o compra herramientas de calidad para tu trabajo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--Icono de la pestaña-->
+    <link rel="icon" href="./img/favicon-32x32.png"/>
+    <!--Normalize css-->
+    <link rel="stylesheet" href="./style/normalize.css"/>
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="./style/style.css"/>
+    <!--Titulo de la web-->
+    <title>AlquilaHerramientas - Las mejores herramientas, cuando más las necesitas</title>
+</head>
+
+<body>
+    <header>
+        <div class="barra-anuncios"></div>
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="./img/LOGO.svg" alt="logo"></a>
+            </div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul class="main-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <label for="btn-1" class="show">Categorías +</label>
+                    <a href="index.html#categories">Categorías</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="perforacion.html">Perforación</a></li>
+                        <li><a href="demolicion.html">Demolición</a></li>
+                        <li><a href="construccion.html">Construcción</a></li>
+                        <li><a href="corte.html">Corte</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#catalogue">Catálogo</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="product-page">
+        <section id="sample" class="product-container">
+            <div class="product-bg">
+                    <figure>
+<!--                        <img src="./img/productos/taladromk1.png" alt="">-->
+                        <a id="sprite"></a>
+                    </figure>
+                    <div class="product-details">
+                        <h1>Taladro Makita</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam ab voluptatibus, explicabo facilis voluptate officiis aliquid. Deserunt voluptatibus, quia vero illo rem voluptates quaerat.</p>
+                        <div class="contactar">
+                           <h2>Para alquilar esta herramienta, escríbenos a:</h2>
+                            <a href="https://api.whatsapp.com/" role="button" class="button-contacto"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/" role="button" class="button-contacto"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="mailto:contacto@alquilaherramientas.com" role="button" class="button-contacto"><i class="far fa-envelope" aria-hidden="true"></i></a>
+                            <a href="http://m.me/" role="button" class="button-contacto"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a>
+                        </div>
+                    </div>      
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="info-container">
+            <div>
+                <a href="index.html"><img src="./img/alquilaherramientaslogo.svg" alt="Logo"></a>
+                <p>Un servicio de:</p>
+                <a href="https://www.facebook.com/ferreteria4hermanos/"><img src="./img/ferreterialogo.svg" alt="Logo Ferretería 4 Hermanos"></a>
+            </div>
+            <div>
+                <h3><a href="index.html#categories">Categorías</a></h3>
+                <a href="perforacion.html">Perforación</a>
+                <a href="demolicion.html">Demolición</a>
+                <a href="construccion.html">Construcción</a>
+                <a href="corte.html">Corte</a>
+            </div>
+            <div>
+                <h3><a href="index.html#contacto">Ubicación</a></h3>
+                <address>Las Brisas, Nuevo Chimbote. Áncash, Perú.</address>
+            </div>
+            <div>
+                <h3><a href="#">Nosotros</a></h3>
+                <a href="#">Misión</a>
+                <a href="#">Visión</a>
+            </div>
+        </div>
+        <div class="copy">Copyright © 2020 AlquilaHerramientas | Ferretería 4 Hermanos</div>
+    </footer>
+    <script src="https://kit.fontawesome.com/607234b9dc.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+        $('.icon').click(function() {
+            $('span').toggleClass("cancel");
+        });
+    </script>
+</body>
+
+</html>
